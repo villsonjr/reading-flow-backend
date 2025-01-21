@@ -1,0 +1,54 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+*.log
+*.DS_Store
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+
+### JIRA plugin
+atlassian-ide-plugin.xml
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+/*.log
+.DS_Store
+
+/src/main/resources/tokens/*
+/src/main/resources/images/users/*
+/src/main/resources/credentials/*
+/src/main/resources/application-prod.properties
+
+
+
+!/mvnw
+!/mvnw.cmd
+
+/src/main/resources/application-dev.properties

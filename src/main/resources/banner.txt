@@ -1,0 +1,13 @@
+
+              ,,                       ,,                             ,,
+            `7MM  `7MM               `7MM                           `7MM
+              MM    MM                 MM                             MM
+`7MM  `7MM    MM    MM  ,MP'      ,M""bMM  .gP"Ya `7M'   `MF'.gP"Ya   MM  ,pW"Wq.`7MMpdMAo.  .gP"Ya `7Mb,od8
+  MM    MM    MM    MM ;Y       ,AP    MM ,M'   Yb  VA   ,V ,M'   Yb  MM 6W'   `Wb MM   `Wb ,M'   Yb  MM' "'
+  MM    MM    MM    MM;Mm       8MI    MM 8M""""""   VA ,V  8M""""""  MM 8M     M8 MM    M8 8M""""""  MM
+  MM    MM    MM    MM `Mb.     `Mb    MM YM.    ,    VVV   YM.    ,  MM YA.   ,A9 MM   ,AP YM.    ,  MM
+  `Mbod"YML..JMML..JMML. YA.     `Wbmd"MML.`Mbmmd'     W     `Mbmmd'.JMML.`Ybmd9'  MMbmmd'   `Mbmmd'.JMML.
+                                                                                   MM
+                                                                                 .JMML.
+                                                                                           Version     : ${application.version}
+ 

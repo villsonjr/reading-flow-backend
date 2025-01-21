@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notificação ulk Reading Flow</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #212121;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            position: relative;
+            width: 80%;
+            max-width: 600px;
+            margin: 20px;
+            background-color: #212121;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 5px;
+            height: 45px;
+            background-color: orange;
+        }
+
+        .container::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 5px;
+            height: 45px;
+            background-color: orange;
+        }
+
+        .top-border {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 80%;
+            height: 5px;
+            background-color: orange;
+        }
+
+        .bottom-border {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 80%;
+            height: 5px;
+            background-color: orange;
+        }
+
+        .message {
+            font-size: 16px;
+            color: white;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+
+        .message h1 {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .message p {
+            margin: 5px 0;
+        }
+
+        .footer {
+            margin-top: 10px;
+        }
+
+        .footer p {
+            color: darkgrey;
+            font-size: 10px;
+        }
+    </style>
+</head>
+<body>
+<!--<img src="/images/system/ulk-white.png"  alt="System Image" style="width: 300px; height: auto;">-->
+<div class="container">
+    <div class="message">
+        <h1>Olá [[${username}]], sua solicitação foi [[${status}]] com sucesso!</h1>
+        <p><strong>Título:</strong> [[${bookTitle}]]</p>
+        <p><strong>Autor:</strong> [[${bookAuthor}]]</p>
+        <p th:if="${responsible != null}"><strong>Responsável:</strong> [[${responsible}]]</p>
+    </div>
+    <div class="top-border"></div>
+    <div class="bottom-border"></div>
+</div>
+
+<div class="footer">
+    <p>Mensagem gerada automaticamente por ulk Reading Flow, para cancelar sua inscrição acesso nosso sistema e atualize
+        suas preferências.</p>
+</div>
+</body>
+</html>
