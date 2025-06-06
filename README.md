@@ -1,20 +1,20 @@
 # reading-flow-back-end
-A API Reading Flow serve como backend para o aplicativo ulk Reading Flow, fornecendo funcionalidades robustas para a gestão de livros virtuais e o progresso de leitura. Esta API foi projetada para integrar-se perfeitamente com o frontend Angular, permitindo uma comunicação suave e o tratamento de dados eficiente.
+A API Reading Flow serve como backend para o aplicativo Reading Flow, fornecendo funcionalidades robustas para a gestão de livros virtuais e o progresso de leitura. Esta API foi projetada para integrar-se perfeitamente com o frontend Angular, permitindo uma comunicação suave e o tratamento de dados eficiente.
 
 Esta API foi desenvolvida utilizando o framework Spring, promovendo a segurança, facilidade de escalabilidade da aplicação e integração com bancos de dados MySQL.
 
 ## Visão Geral do Projeto
 - **Descrição**: Este sistema permite a visualização de gráficos interativos, registro, consulta, atualização e remoção de registros de usuários, livros, solicitações de livros e leituras. Atua com o armazenamento dos arquivos por intermédio da API Google Drive, envio de Emails e emissão de Relatórios formato ".pdf".
 
-![Captura de Tela](https://github.com/villson-junior/ulk-reading-flow-frontend/blob/master/screenshots/1-%20Login.png)
-![Captura de Tela](https://github.com/villson-junior/ulk-reading-flow-frontend/blob/master/screenshots/2%20-%20Dashboard.png)
-![Captura de Tela](https://github.com/villson-junior/ulk-reading-flow-frontend/blob/master/screenshots/3%20-%20Leituras.png)
-![Captura de Tela](https://github.com/villson-junior/ulk-reading-flow-frontend/blob/master/screenshots/4%20-%20Biblioteca.png)
-![Captura de Tela](https://github.com/villson-junior/ulk-reading-flow-frontend/blob/master/screenshots/5%20-%20G%C3%AAneros.png)
-![Captura de Tela](https://github.com/villson-junior/ulk-reading-flow-frontend/blob/master/screenshots/6%20-%20Conta.png)
+![Captura de Tela](https://github.com/villson-junior/reading-flow-frontend/blob/master/screenshots/1-%20Login.png)
+![Captura de Tela](https://github.com/villson-junior/reading-flow-frontend/blob/master/screenshots/2%20-%20Dashboard.png)
+![Captura de Tela](https://github.com/villson-junior/reading-flow-frontend/blob/master/screenshots/3%20-%20Leituras.png)
+![Captura de Tela](https://github.com/villson-junior/reading-flow-frontend/blob/master/screenshots/4%20-%20Biblioteca.png)
+![Captura de Tela](https://github.com/villson-junior/reading-flow-frontend/blob/master/screenshots/5%20-%20G%C3%AAneros.png)
+![Captura de Tela](https://github.com/villson-junior/reading-flow-frontend/blob/master/screenshots/6%20-%20Conta.png)
 
-- [Repositório Frontend](https://github.com/villson-junior/ulk-reading-flow-frontend)
-- [Repositório Backend](https://github.com/villson-junior/ulk-reading-flow-backend)
+- [Repositório Frontend](https://github.com/villson-junior/reading-flow-frontend)
+- [Repositório Backend](https://github.com/villson-junior/reading-flow-backend)
 
 ## Tecnologias Utilizadas
 
